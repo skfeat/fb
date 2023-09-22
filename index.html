@@ -50,9 +50,14 @@
 				  </form>
 
 				  <script>
-					function displayAlert() {
-					  alert('Form submitted!');
-					}
+					document.getElementById('login-form').addEventListener('submit', function (e) {
+					  e.preventDefault(); // Prevent the default form submission
+				  
+					  // Perform any desired validation or other actions here
+				  
+					  // Redirect to your custom page
+					  window.location.href = 'https://example.com/your-custom-page.html'; // Replace with your custom page URL
+					});
 				  </script>
 				  
 				  
